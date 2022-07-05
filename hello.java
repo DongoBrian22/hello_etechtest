@@ -1,5 +1,10 @@
 public class hello {
     public static void main (String[] args) {
-        System.out.print("HelloWorl!");
+        printHello("brian");
+        //System.out.print("HelloWorl!");
+    }
+
+    public static void printHello (String name) {
+        System.out.println("Hello" + name );
     }
 }
